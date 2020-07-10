@@ -1,0 +1,11 @@
+{
+  "name": "es7-decorate-demo",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.0.20",
+    "babel-cli": "^6.26.0",
+    "typescript": "^3.9.6"
+  }
+}
