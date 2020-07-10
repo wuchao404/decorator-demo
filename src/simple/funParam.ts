@@ -1,3 +1,10 @@
+// 方法的参数加装饰器
+/**
+ * 
+ * @param target 所在类
+ * @param key    方法名 
+ * @param index  参数顺序，从0开始计算 
+ */
 function funParam(target: Object, key:string, index: number){
   console.log('target:',target)
   console.log('name:',name)

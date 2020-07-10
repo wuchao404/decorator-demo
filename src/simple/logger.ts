@@ -1,5 +1,10 @@
 
-// 给方法加日志
+/**
+ * 给方法加日志
+ * @param target 所在类
+ * @param key 方法名
+ * @param descriptor 方法修饰符
+ */
 function logger(target:Object, key: String, descriptor: PropertyDescriptor){
   descriptor.writable = true;
   const originFun:Function = descriptor.value;
