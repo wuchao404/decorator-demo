@@ -2,7 +2,7 @@ const compare = (num: number) => (target: any, key: string, descriptor: Property
     const originFun:any = descriptor.value;
     descriptor.value = (...args: any) =>{
       const _num: any = target['num']
-      const props = Object.getOwnPropertySymbols(target);
+      const props = Object.getOwnPropertyNames(target);
       console.log('props:',props)
       console.log('_num:',_num)
       if (_num > num) {

@@ -1,3 +1,4 @@
+// 给类添加变量
 const addParam = (target:any) => {
   return class extends target {
     p = 50;
